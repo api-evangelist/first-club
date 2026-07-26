@@ -1,19 +1,50 @@
 aid: first-club
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/first-club.png
 name: First Club
-description: First Club is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FirstClub is a member-exclusive quick-commerce grocery platform operating in
+  Bengaluru and Hyderabad, India, delivering curated, quality-inspected groceries
+  in as little as 30 minutes from physical "ClubHouses" rather than traditional
+  dark stores. The company targets India's top-tier consumers with only trusted,
+  tasted, and tested products, screening out a published list of banned
+  ingredients across categories including fruits and vegetables, dairy and eggs,
+  bakery, staples, kids nutrition, packaged foods, snacks and beverages, health
+  supplements, and cleaning essentials. FirstClub also offers a subscription
+  model, "FirstClub Mornings." Founded by ex-Flipkart executive Ayyappan R, the
+  company is backed by Accel and RTP Global. It surfaces here as an API
+  Evangelist network profile; FirstClub is a consumer mobile-app business and
+  currently publishes no public developer API, SDK, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/first-club/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
+- rtp-global
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Grocery
+- Quick Commerce
+- E-Commerce
+- Delivery
+- Consumer
+- India
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.firstclub.site/
+- type: TermsOfService
+  url: https://www.firstclub.site/terms
+- type: PrivacyPolicy
+  url: https://www.firstclub.site/privacy-policy
+- type: Blog
+  url: https://www.firstclub.site/news
+- type: DomainSecurity
+  url: security/first-club-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
